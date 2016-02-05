@@ -8,7 +8,7 @@ Meteor.startup(function() {
       Posts.insert({
         title: 'Title ' + n,
         body: 'Content body ' + n,
-        createdAt: randomDate(new Date(2015, 0, 1), new Date());
+        createdAt: randomDate(new Date(2015, 0, 1), new Date())
       });
     });
   }
